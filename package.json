@@ -1,0 +1,16 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "API simples para envio de emails",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.3"
+  }
+}
